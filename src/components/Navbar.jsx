@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <>
-    <div className='flex justify-between items-center py-6 px-10 z-50'>
+    <div className='flex justify-between items-center py-6 px-10 z-50 border-b border-orange-500 bg-orange-50'>
       <div className='text-orange-500 flex justify-center items-center gap-2 text-xl font-semibold'>
         <h1 className=''>Pizza Place</h1>
         <FaPizzaSlice />
@@ -20,10 +20,10 @@ const Navbar = () => {
 
       <div className='flex justify-center items-center sm:text-xl text-orange-500 gap-4'>
         <ul className='hidden md:flex justify-center items-center gap-4 font-semibold'>
-          <li>Home</li>
-          <li>Menu</li>
-          <li>Specials</li>
-          <li>Contatc Us</li>
+          <li className='cursor-pointer hover:scale-105'>Home</li>
+          <li className='cursor-pointer hover:scale-105'>Menu</li>
+          <li className='cursor-pointer hover:scale-105'>Specials</li>
+          <li className='cursor-pointer hover:scale-105'>Contatc Us</li>
         </ul>
 
         <div className='flex sm:hidden border-2 rounded-full border-orange-500 p-2'>
