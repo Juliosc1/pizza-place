@@ -25,7 +25,7 @@ const Navbar = () => {
           <li className='cursor-pointer hover:scale-105'><a href='/'>Home</a></li>
           <li className='cursor-pointer hover:scale-105'><a href='/menu'>Menu</a></li>
           <li className='cursor-pointer hover:scale-105'><a href='/specials'>Specials</a></li>
-          <li className='cursor-pointer hover:scale-105'><a href='/contactus'>Contact Us</a></li>
+          <li className='cursor-pointer hover:scale-105'><a href='/contact'>Contact Us</a></li>
         </ul>
 
         <div className='flex sm:hidden border-2 rounded-full border-orange-500 p-2'>
@@ -45,7 +45,7 @@ const Navbar = () => {
         <li className='flex justify-center items-center py-4 border-b border-white w-full hover:scale-105'><a href='/'>Home</a></li>
         <li className='flex justify-center items-center py-8 border-b border-white w-full hover:scale-105'><a href='/menu'>Menu</a></li>
         <li className='flex justify-center items-center py-8 border-b border-white w-full hover:scale-105'><a href='/specials'>Specials</a></li>
-        <li className='flex justify-center items-center py-8 border-b border-white w-full hover:scale-105'><a href='/contactus'>Contact Us</a></li>
+        <li className='flex justify-center items-center py-8 border-b border-white w-full hover:scale-105'><a href='/contact'>Contact Us</a></li>
       </ul>
     </div>
     }
