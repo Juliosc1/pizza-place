@@ -20,3 +20,11 @@ export const GourmetPizza = [
     price: 19.99
   },
 ]
+
+
+export const PizzaSlice = [
+  {name: "Quattro Stagioni", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, quas?", price: 5.4},
+  {name: "Napoletana", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, quas?", price: 5.4},
+  {name: "Capricciosa", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, quas?", price: 5.4},
+  {name: "Fontana", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, quas?", price: 5.4},
+]

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const PizzaItem = ({name, description, price}) => {
+export const SliceItem = ({name, description ,price}) => {
   return (
     <div className='flex text-orange-800 gap-8 mt-6'>
       <div className='flex flex-col sm:w-[40%]'>
@@ -11,5 +11,3 @@ const PizzaItem = ({name, description, price}) => {
     </div>
   )
 }
-
-export default PizzaItem
