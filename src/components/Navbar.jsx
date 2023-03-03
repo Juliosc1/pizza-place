@@ -12,15 +12,15 @@ const Navbar = () => {
 
   return (
     <>
-    <div className='flex justify-between items-center py-6 px-10 z-50 border-b border-orange-500 bg-orange-50'>
-      <div className='text-orange-500 flex justify-center items-center gap-2 text-xl font-semibold'>
+    <div className='sticky top-0 grid grid-cols-2 py-6 px-10 z-50 border-b border-orange-500 bg-orange-50'>
+      <div className='text-orange-500 flex justify-start items-center gap-2 text-xl font-semibold'>
         <a href='/' className='flex justify-center items-center gap-2'>
           <h1 className=''>Pizza Place</h1>
           <FaPizzaSlice />
         </a>
       </div>
 
-      <div className='flex justify-center items-center sm:text-xl text-orange-500 gap-4'>
+      <div className='flex justify-end items-center sm:text-xl text-orange-500 gap-4'>
         <ul className='hidden md:flex justify-center items-center gap-4 font-semibold'>
           <li className='cursor-pointer hover:scale-105'><a href='/'>Home</a></li>
           <li className='cursor-pointer hover:scale-105'><a href='/menu'>Menu</a></li>
