@@ -10,7 +10,7 @@ const Specials = () => {
           <h1 className='text-4xl font-semibold italic sm:text-6xl sm:mb-10'>Specials</h1>
           <p className=''>Life is too short for plain pizza. Try our Pizza of the Month and experience a slice of heaven</p>
           <p className='hidden sm:flex'>Looking for a quick and delicious meal? Look no further than a slice of pizza! With its perfect blend of crispy crust, tangy sauce, and gooey cheese, every bite is like a party in your mouth.</p>
-          <button className='bg-orange-500 text-white p-2 rounded-lg hover:scale-105 my-8 shadow-lg'>See Our Menu</button>
+          <button className='bg-orange-500 text-white p-2 rounded-lg hover:scale-105 my-8 shadow-lg'><a href='/menu'>See Our Menu</a></button>
         </div>
         
         <div className='flex'>

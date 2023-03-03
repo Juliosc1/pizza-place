@@ -47,7 +47,7 @@ const Menu = () => {
             )
           })}
 
-          <button className='bg-orange-500 text-white p-2 rounded-lg hover:scale-105 my-8 shadow-xl'>Explore More</button>
+          <button className='bg-orange-500 text-white p-2 rounded-lg hover:scale-105 my-8 shadow-xl'><a href='/specials'>Explore More</a></button>
         </div>
 
       </div>

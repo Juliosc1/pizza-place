@@ -13,7 +13,7 @@ const Home = () => {
           <h1 className='text-4xl font-bold sm:font-semibold sm:text-6xl font-sans'>Pizza Place</h1>
           <p className='font-bold sm:font-semibold mb-6 sm:py-14 text-orange-600 sm:text-lg'>Pizza makes me think that anything is possible</p>
 
-          <button className='bg-orange-500 text-white py-2 px-4 rounded-xl hover:scale-105'>Eat now</button>
+          <button className='bg-orange-500 text-white py-2 px-4 rounded-xl hover:scale-105 shadow-xl'><a href='/menu'>Eat now</a></button>
         </div>
 
       </div>

@@ -14,8 +14,10 @@ const Navbar = () => {
     <>
     <div className='flex justify-between items-center py-6 px-10 z-50 border-b border-orange-500 bg-orange-50'>
       <div className='text-orange-500 flex justify-center items-center gap-2 text-xl font-semibold'>
-        <h1 className=''>Pizza Place</h1>
-        <FaPizzaSlice />
+        <a href='/' className='flex justify-center items-center gap-2'>
+          <h1 className=''>Pizza Place</h1>
+          <FaPizzaSlice />
+        </a>
       </div>
 
       <div className='flex justify-center items-center sm:text-xl text-orange-500 gap-4'>
