@@ -42,10 +42,10 @@ const Navbar = () => {
     'fixed right-0 top-20 w-full h-full justify-center items-center border bg-orange-400 rounded-xl duration-500 ease-in md:hidden z-10' 
     : "fixed -right-full top-20 h-full w-full duration-500 ease-out md:hidden z-10"}>
       <ul onClick={() => setClick(false)} className='flex flex-col justify-center items-center text-white p-12 text-xl font-semibold w-full cursor-pointer'>
-        <li className='flex justify-center items-center py-4 border-b border-white w-full hover:scale-105'><a href='/'>Home</a></li>
-        <li className='flex justify-center items-center py-8 border-b border-white w-full hover:scale-105'><a href='/menu'>Menu</a></li>
-        <li className='flex justify-center items-center py-8 border-b border-white w-full hover:scale-105'><a href='/specials'>Specials</a></li>
-        <li className='flex justify-center items-center py-8 border-b border-white w-full hover:scale-105'><a href='/contact'>Contact Us</a></li>
+        <li className='navbarMenu'><a href='/'>Home</a></li>
+        <li className='navbarMenu'><a href='/menu'>Menu</a></li>
+        <li className='navbarMenu'><a href='/specials'>Specials</a></li>
+        <li className='navbarMenu'><a href='/contact'>Contact Us</a></li>
       </ul>
     </div>
     }

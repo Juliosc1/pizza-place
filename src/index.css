@@ -25,3 +25,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.navbarMenu {
+  @apply flex justify-center items-center py-4 border-b border-white w-full hover:scale-105 hover:text-orange-100
+}

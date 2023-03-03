@@ -32,7 +32,7 @@ const Contact = () => {
 
       <div className='flex flex-col h-full text-orange-800 p-4 sm:gap-8 sm:items-center'>
         <div className='flex justify-center items-center py-8'>
-          <h2 className='text-4xl font-semibold'>Contact Us</h2>
+          <h2 className='text-4xl font-semibold text-orange-500'>Contact Us</h2>
         </div>
 
         <div className='text-sm sm:text-base'>
